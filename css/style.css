@@ -1,0 +1,21 @@
+/** navbar formatting **/
+.navbar{
+	height: 80px;
+	background-color: black;
+}
+.navbar-brand{
+	padding: 5px;
+}
+#navbar_img{
+	height: 75px;
+}
+.nav-elements{
+	padding-top: 20px;
+	float: right;
+}
+.nav-elements > a{
+	color: white;
+}
+.nav-elements:hover{
+	background-color: black;
+}
