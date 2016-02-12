@@ -11,7 +11,7 @@ body {
 }
 
 hr {
-    max-width: 120px;
+    max-width: 200px;
     border-width: 3px;
     opacity: 0.5;
     margin-top: 25px;
@@ -26,6 +26,13 @@ hr.light {
 hr.primary {
     border-color: #056505;
     opacity: 1;
+}
+
+hr.secondary {
+  max-width: 1000px;
+  border-color: #111;
+  opacity: .25;
+  border-width: 1px;
 }
 
 p {
@@ -263,6 +270,22 @@ header .header-content .inner p {
   color: #fff;
 }
 
+
+.btn.btn-primary-outline-reversed {
+  color: #fff;
+  border-color: #056505;
+  background-color: #056505;
+  padding: 10px 20px;
+}
+
+.btn.btn-primary-outline-reversed:hover,
+.btn.btn-primary-outline-reversed:active,
+.btn.btn-primary-outline-reversed:focus {
+  background-color: #055005;
+  border-color: #055005;
+  color: #fff;
+}
+
 @media(max-width:48em) {
   header h1 {
     font-size: 36px;
@@ -334,7 +357,12 @@ header .header-content .inner p {
 }
 
 #about .row {
-  padding: 0 0 15px 0;
+  padding: 0 0 20px 0;
+  margin: 20px 0;
+}
+
+#about .container {
+  padding: 0 100px;
 }
 
 /** quotes **/
