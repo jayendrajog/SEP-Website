@@ -337,6 +337,21 @@ header .header-content .inner p {
   padding: 0 0 15px 0;
 }
 
+/** quotes **/
+.owl-quotes i.icon {
+	font-size: 36px;
+	margin-bottom: 60px;
+	color: #111;
+}
+
+.img-quotes {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
 /** footer **/
 footer {
     padding: 45px;

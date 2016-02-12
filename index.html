@@ -20,7 +20,7 @@
 			<!--Other Stuff-->
 			<link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
 			<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-
+			<link href="css/owl.css" rel="stylesheet">
 			<link rel="icon" type="image/png" href="img/SEP-black.png">
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,21 +51,21 @@
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
 						<div class="dropdown-menu" aria-labelledby="Preview">
 							<a class="dropdown-item" href="html/about.html">About Us</a>
-							<a class="dropdown-item" href="#">Sister Chapters</a>
-							<a class="dropdown-item" href="#">Start a Chapter</a>
+							<a class="dropdown-item" href="html/sisterchapters.html">Sister Chapters</a>
+							<a class="dropdown-item" href="html/startachapter.html">Start a Chapter</a>
 						</div>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link page-scroll" href="html/brothers.html">Brothers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#">Careers</a>
+						<a class="nav-link page-scroll" href="html/careers.html">Careers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll" href="#">Ventures</a>
+						<a class="nav-link page-scroll" href="html/ventures.html">Ventures</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link page-scroll rush" href="#" style="color: #056505; font-weight: 900;">Rush</a>
+						<a class="nav-link page-scroll rush" href="html/rush.html" style="color: #056505; font-weight: 900;">Rush</a>
 					</li>
 				</ul>
 			</div>
@@ -124,6 +124,30 @@
 	</section>
 	<!--end about-->
 
+	<!--start quote caarousel-->
+	<section class="bg-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="owl-quotes owl-carousel">
+						<div class="item text-center">
+							<img src='/img/brothers/bryantran.jpeg' class='img-responsive img-quotes'>
+							<h4 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon ion-social-facebook"></i>
+							<h4 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon ion-social-facebook"></i>
+							<h4 class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 <footer id="footer">
     <div class="container">
     	<div class="row bg-black text-center">
@@ -145,6 +169,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script>
 		if (screen.width > 764) {
@@ -158,6 +183,7 @@
 	      });
 	    });
 		}
+
 	</script>
 	<script>
 	$.backstretch([
@@ -165,6 +191,13 @@
     , "img/header2.png"
     , "img/header3.png"
   ], {duration: 4000, fade: 1000});
+
+	// Sliders Init
+	$('.owl-quotes').owlCarousel({
+		singleItem: true,
+		pagination: true
+	});
+
 	</script>
 	</body>
 </html>
