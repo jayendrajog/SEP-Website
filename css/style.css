@@ -151,7 +151,11 @@ section {
 .dropdown-menu a:focus
 .dropdown-menu a:active {
     background-color: transparent;
-    color: #ccc;
+    color: #eee;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
 }
 
 /* responsive nav */
@@ -180,7 +184,7 @@ section {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #ccc;
+        color: #666;
     }
 
 }
@@ -214,7 +218,7 @@ section {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #ccc;
+        color: #eee;
     }
 
     .logo-mobile {
@@ -350,12 +354,6 @@ header .header-content .inner p {
     line-height: 18px;
 }
 
-@media(max-width:48em) {
-  h2 {
-    font-size: 28px;
-  }
-}
-
 #about .row {
   padding: 0 0 20px 0;
   margin: 20px 0;
@@ -364,6 +362,21 @@ header .header-content .inner p {
 #about .container {
   padding: 0 100px;
 }
+
+@media(max-width:48em) {
+  h2 {
+    font-size: 28px;
+  }
+
+  #about .row {
+    padding: 0 0 10px 0;
+  }
+
+  #about .container {
+    padding: 0 35px;
+  }
+}
+
 
 /** quotes **/
 .owl-quotes i.icon {
@@ -397,7 +410,7 @@ footer {
 }
 
 #footer i:hover {
-  color: #ccc;
+  color: #eee;
 }
 
 #footer p {
@@ -426,11 +439,54 @@ footer {
 
 @media(max-width:48em) {
   .row.header-content h1 {
-    font-size: 48px;
+    font-size: 36px;
+  }
+
+  .text-title {
+    max-width: 75%;
   }
 
 }
 /** About Page **/
 #about-main .row {
   padding: 25px 0;
+}
+
+/** sister chapters **/
+#sister-chapters .chapters-img {
+   display: inline-block;
+   position: relative;
+   margin-bottom: 25px;
+}
+
+#sister-chapters .sister-captions {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  color:white;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#sister-chapters .sister-captions:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+
+/** ventures **/
+.gray img {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.gray img:hover {
+  -webkit-filter: grayscale(100%);
 }

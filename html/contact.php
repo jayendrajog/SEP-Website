@@ -10,7 +10,7 @@
         $to = 'president@sigmaetapi.com';
         $subject = 'SEP - Start a Chapter Form';
 
-        $body = "From: $name\n E-Mail: $email\n Phone Number: $tel\n School: $school\n Message:\n $msg";
+        $body = "From: $name\nE-Mail: $email\nPhone Number: $tel\nSchool: $school\nMessage:\n$msg";
 
         // Check if name has been entered
         if (!$_POST['name']) {
