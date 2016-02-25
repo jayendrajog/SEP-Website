@@ -35,6 +35,10 @@ hr.secondary {
   border-width: 1px;
 }
 
+hr.caption {
+  margin: 0;
+}
+
 p {
     font-family: 'Crimson Text', serif;
     color: #111;
@@ -466,6 +470,7 @@ footer {
   width:100%;
   height:100%;
   color:white;
+  opacity: 0;
 
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -474,11 +479,42 @@ footer {
           transition: all 1s ease;
 }
 
+#sister-chapters h1 {
+  padding-top: 15%;
+}
+
 #sister-chapters .sister-captions:hover{
   background-color: rgba(0,0,0,0.5);
+  opacity: 1;
+}
+
+@media(max-width:48em) {
+  #sister-chapters .sister-captions {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5);
+  }
+  #sister-chapters h1 {
+    padding-top: 10%;
+    font-size: 20px;
+  }
+}
+
+/** brothers **/
+#brothers p,
+#brothers a {
+  font-family: 'Crimson Text', serif;
+  color: #111;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 5px;
+}
+
+#brothers a:hover {
+  text-decoration: none;
 }
 
 /** ventures **/
+
 .gray img {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
