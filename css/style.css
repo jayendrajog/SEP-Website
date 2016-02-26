@@ -503,19 +503,32 @@ footer {
 #brothers p,
 #brothers a {
   font-family: 'Crimson Text', serif;
-  color: #111;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
-  margin-top: 5px;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
-#brothers a:hover {
+#brothers a:link,
+#brothers a:hover,
+#brothers a:active,
+#brothers a:visited {
   text-decoration: none;
 }
 
-/** ventures **/
+#brothers .brothers-caption {
+  color: #056505;
+  margin-bottom: -10px;
+  font-weight: 700;
+}
 
-.gray img {
+#brothers .brothers-subcaption {
+  margin-bottom: 25px;
+}
+
+/** ventures **/
+/** careers **/
+.grey img {
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
@@ -523,6 +536,6 @@ footer {
           transition: all 1s ease;
 }
 
-.gray img:hover {
+.grey img:hover {
   -webkit-filter: grayscale(100%);
 }
