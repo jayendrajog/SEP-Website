@@ -539,3 +539,12 @@ footer {
 .grey img:hover {
   -webkit-filter: grayscale(100%);
 }
+
+.careers-img{
+  padding: 4vh;
+  
+  position: relative;
+}
+.careers-img > img{
+  max-height: 10vh;
+}
