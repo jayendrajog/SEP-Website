@@ -524,6 +524,7 @@ footer {
 
 #brothers .brothers-subcaption {
   margin-bottom: 25px;
+  font-size: 15px;
 }
 
 /** ventures **/
@@ -542,9 +543,14 @@ footer {
 
 .careers-img{
   padding: 4vh;
-  
+
   position: relative;
 }
 .careers-img > img{
   max-height: 10vh;
+}
+
+/** rush **/
+#rush-main img {
+  max-width: 300px;
 }
