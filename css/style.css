@@ -553,4 +553,10 @@ footer {
 /** rush **/
 #rush-main img {
   max-width: 300px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+#rush-footer .container {
+  max-height: 700px;
 }
