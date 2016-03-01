@@ -40,7 +40,7 @@
 				☰
 			</button>
 			<div class="navbar-brand page-scroll logo-desktop">
-				<a href="index.html"><img src= "img/sep-white.png" id="navbar_img" href="index.html" alt="Sigma Eta Pi"></a>
+				<a href="index"><img src= "img/sep-white.png" id="navbar_img" href="index.html" alt="Sigma Eta Pi"></a>
 			</div>
 			<div class="navbar-brand page-scroll logo-mobile pull-left">
 				<a href="index.html"><img src= "img/sep-black.png" id="navbar_img" href="index.html" alt="Sigma Eta Pi"></a>
