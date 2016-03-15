@@ -424,7 +424,6 @@ footer {
 /** Page Standard **/
 .row.header-content {
     position: relative;
-    width: 100%;
     padding: 150px 15px;
     text-align: center;
     z-index: 2;
@@ -528,6 +527,11 @@ footer {
   font-size: 15px;
 }
 
+@media(max-width:48em) {
+  .brothers-img img {
+    max-width: 80%;
+  }
+}
 /** ventures **/
 /** careers **/
 .grey img {
@@ -544,11 +548,11 @@ footer {
 
 .careers-img{
   padding: 4vh;
-
   position: relative;
 }
 .careers-img > img{
   max-height: 10vh;
+  max-width: 80%;
 }
 
 /** rush **/

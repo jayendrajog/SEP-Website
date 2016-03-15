@@ -30,9 +30,9 @@
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage) {
     if (mail ($to, $subject, $body, $from)) {
-        echo "<script>alert('message sent succesfully'); window.history.go(-1); </script>";
+        echo "<script>alert('Message sent successfully!'); window.history.go(-1); </script>";
     } else {
-        echo "<script>alert('message did not send successfully'); window.history.go(-1); </script>";
+        echo "<script>alert('Message did not send successfully'); window.history.go(-1); </script>";
     }
 }
     }
