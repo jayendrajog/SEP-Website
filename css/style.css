@@ -551,8 +551,8 @@ footer {
   position: relative;
 }
 .careers-img > img{
-  max-height: 10vh;
-  max-width: 80%;
+  max-height: 8em;
+  max-width: 90%;
 }
 
 /** rush **/
@@ -564,4 +564,15 @@ footer {
 
 #rush-footer .container {
   max-height: 700px;
+}
+
+/** ventures **/
+.ventures-img{
+  padding: 4vh;
+  position: relative;
+}
+
+.ventures-img img{
+  max-height: 20em;
+  max-width: 90%;
 }
